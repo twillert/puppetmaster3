@@ -3,6 +3,5 @@ wget https://raw.githubusercontent.com/puppetlabs/puppetlabs-release/master/file
 yum install -y puppet-server
 rpm --import RPM-GPG-KEY-puppetlabs
 systemctl start puppetmaster
-ystemctl enable puppetmaster
-
+systemctl enable puppetmaster
 
